@@ -82,7 +82,7 @@ public class GameManager : MonoBehaviour
   public void startRestab()
   {
     RestabilizeGame minigame = Instantiate(boxGamePrefab);
-    minigame.transform.position += new Vector3(0, 0, -3);
+    minigame.transform.position += new Vector3(0, 0, -6);
   }
 
   public void startDDR()

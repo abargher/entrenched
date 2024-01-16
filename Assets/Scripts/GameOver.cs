@@ -20,9 +20,9 @@ public class GameOver : MonoBehaviour
   {
     GM = GameManager.instance;
     if (GameManager.isWinner) {
-      marqueeText.text = "You Win!";
+      marqueeText.text = "YOU WIN";
     } else {
-      marqueeText.text = "Game Over!";
+      marqueeText.text = "GAME OVER";
     }
     GameManager.startedOnce = false;
     GameManager.isWinner = false;
